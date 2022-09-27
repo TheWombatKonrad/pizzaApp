@@ -2,12 +2,12 @@
 
 Inlämning 1
 
-Skapa och publicera en app med ASP.NET
-I denna inlämning kommer du att följa en guide. Det är viktigt att du
-dokumenterar olika steg med text och skärmdumpar.
-Förutom själva appen du skapar skall du också svara på ett antal frågor.
-Dessa frågor är till för att täcka in olika delar i betygskriterierna.
-Använd även DevOps Boards för att planera och fördela arbetet i gruppen.
+Skapa och publicera en app med ASP.NET  
+I denna inlämning kommer du att följa en guide. Det är viktigt att du  
+dokumenterar olika steg med text och skärmdumpar.  
+Förutom själva appen du skapar skall du också svara på ett antal frågor.  
+Dessa frågor är till för att täcka in olika delar i betygskriterierna.  
+Använd även DevOps Boards för att planera och fördela arbetet i gruppen.  
 
 Uppgiften
 Skapa webbappar med ASP.NET Core för nybörjare
