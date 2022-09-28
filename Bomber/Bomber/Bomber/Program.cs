@@ -1,10 +1,7 @@
-﻿
-using var client = new HttpClient();
+﻿using Bomber;
+using System.Runtime.CompilerServices;
 
-var timesToRequst = 100;
+var timesToRequest = 1;
 
-for (int requestRepetitions = 0; requestRepetitions < timesToRequst; requestRepetitions++)
-{
-    var result = await client.GetAsync("https://bestalpineappdemo.azurewebsites.net/", HttpCompletionOption.ResponseContentRead);
-    Console.WriteLine(result.StatusCode);
-}
+//await Bombs.MultipleGetRequests(timesToRequest);
+await Bombs.CreateMultiplePizzas(timesToRequest);
