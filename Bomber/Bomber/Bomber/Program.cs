@@ -1,7 +1,7 @@
 ﻿using Bomber;
-using System.Runtime.CompilerServices;
 
-var timesToRequest = 1;
+var timesToRequest = 30000;
 
-//await Bombs.MultipleGetRequests(timesToRequest);
-await Bombs.CreateMultiplePizzas(timesToRequest);
+Console.WriteLine("Start " + DateTime.Now);
+Bombs.MultipleGetRequests(timesToRequest);
+Console.WriteLine("End " + DateTime.Now);
